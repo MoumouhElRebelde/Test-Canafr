@@ -1,69 +1,36 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CANAFR</title>
-    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=4mJ8HWOfBK6sKBiiR01cLbEd_4ge5IUfwRlNRqEONj4ENQ5LiX0om5RfwG2T3Dmg" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9rYXR0aWNvbnNlaWwuY29tLw"/><style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-        header {
-            background-color: #004080;
-            color: white;
-            text-align: center;
-            padding: 20px 0;
-        }
-        main {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background: white;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-        h1, h2 {
-            color: #004080;
-        }
-        ol {
-            padding-left: 20px;
-            margin-top: 10px;
-        }
-        ol li {
-            margin: 10px 0;
-            line-height: 1.6;
-        }
-        .contact {
-            margin-top: 20px;
-            padding: 15px;
-            background-color: #f1f1f1;
-            border-left: 4px solid #004080;
-        }
-        .contact a {
-            color: #004080;
-            text-decoration: none;
-        }
-        .contact a:hover {
-            text-decoration: underline;
-        }
-        footer {
-            text-align: center;
-            margin-top: 20px;
-            padding: 10px;
-            font-size: 0.9em;
-            color: #555;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-    <h1>Bienvenue sur canafr.com</h1>
+    <div class="header-content">
+        <!-- Logo du site -->
+        <img src="C:\Users\REDMI\Downloads/CANAFR Logo.png" alt="Logo CANAFR" class="site-logo">
+        <!-- Menu déroulant pour choisir la langue -->
+        <div class="language-selector">
+            <label for="language">Langue :</label>
+            <select id="language">
+                <option value="fr" selected>Français</option>
+                <option value="en">English</option>
+                <option value="ar">العربية</option>
+            </select>
+        </div>
+    </div>
+    <!-- Barre de navigation -->
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li><a href="notre-politique.html">Notre politique</a></li>
+            <li><a href="nos-services.html">Nos services</a></li>
+            <li><a href="s-inscrire.html">S'inscrire</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
 </header>
 
 <main>
@@ -78,17 +45,17 @@
             <li>Business Plan</li>
             <li>Accompagnement en phase de lancement de :
                 <ol>
-                    A- Nouveaux projets<br>
-                    B- Nouveaux produits
+                    <li>Nouveaux projets</li>
+                    <li>Nouveaux produits</li>
                 </ol>
             </li>
             <li>Étude de marché</li>
             <li>Sondage d'opinion</li>
             <li>Enquêtes :
                 <ol>
-                    A- Marché <br>
-                    B- Satisfaction client<br>
-                    C- Mystère<br>
+                    <li>Marché</li>
+                    <li>Satisfaction client</li>
+                    <li>Mystère</li>
                 </ol>
             </li>
         </ol>
@@ -104,7 +71,7 @@
 </main>
 
 <footer>
-    &copy; 2024 Katti Conseil - Tous droits réservés.
+    &copy; 2024 CANAFR - Tous droits réservés.
 </footer>
 
 </body>
